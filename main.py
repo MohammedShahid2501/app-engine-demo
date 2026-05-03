@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, App Engine (via Render)!"
+    return "Hello, App Engine"
 
 if __name__ == "__main__":
     app.run()
